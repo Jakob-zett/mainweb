@@ -1,0 +1,150 @@
+* {
+	font-family: 'Raleway',"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	margin:0;
+    padding:0;
+    text-align: center;
+}
+
+/* SIDEBAR */
+/* SIDEBAR */
+/* SIDEBAR */
+
+
+
+.sidebar {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 170px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    border-right: solid black 6px;
+}
+/* NAME */
+/* NAME */
+
+.sidebar #sbname {
+	height: 25%;
+	display: table;
+	overflow: hidden;
+
+}
+.sidebar #sbname h1 {
+	color: black;
+	font-weight: bolder;
+	font-size: 35px;
+	font-family: 'Reenie Beanie', cursive;
+	display: table-cell; 
+	vertical-align: middle;
+	width: 170px;
+}
+
+/* LINKS */
+/* LINKS */
+
+.sidebar #sbdescription #descriptionholder h1 {
+	font-family:"Reenie Beanie", cursive;
+	font-weight: bolder;
+	font-size: 35px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.sidebar #sbdescription {
+	width: 170px;
+	height: 50%;
+	display: table;
+}
+
+.sidebar #sbdescription #descriptionholder {
+	display: table-cell;
+    vertical-align: middle;
+}
+.sidebar #sbdescription #descriptionholder .sbdescriptioncontainer {
+	cursor:pointer;
+}
+
+.sidebar #sbdescription h2 {
+	font-size:15px;
+	text-transform: uppercase;
+	
+}
+
+
+.sidebar #sbdescription p {
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 'Reenie Beanie', cursive;
+}
+
+
+.sidebar #sbdescription .sbdescriptioncontainer:hover {
+	color: white;
+	background-color: black;
+
+}
+
+/* LOGO */
+/* LOGO */
+
+.sidebar #sblogo {
+	width: 170px;
+	height: 25%;
+	display: table;
+	background-color: white;
+}
+.sidebar #sblogo #imageholder {
+	display: table-cell;
+    vertical-align: middle;
+
+}
+
+.sidebar #sblogo img {
+	max-width: 40px;
+	max-height: 40px;
+}
+
+/* MAIN PART */
+/* MAIN PART */
+/* MAIN PART */
+
+
+
+.main {
+    margin-left: 170px; /* Same as the width of the sidebar */
+}
+.projectcontainer {
+	margin: 20px;
+    padding: 40px 40px;
+    padding-bottom: 10px;
+    border: solid black 6px;
+    text-decoration: none;
+    cursor:pointer;
+
+
+}
+.projectcontainer h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.projectcontainer h2 {
+	font-size: 20px;
+	margin:0;
+    padding-top: 10px;
+    text-transform: lowercase;
+    font-family: 'Reenie Beanie', cursive;
+    color: white;
+}
+
+.projectcontainer:hover {
+	color: white;
+	background-color: black;
+}
+
